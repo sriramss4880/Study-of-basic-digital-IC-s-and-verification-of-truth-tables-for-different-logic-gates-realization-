@@ -76,7 +76,8 @@ xnor(y7,a,b);
 endmodule
 ```
 */
-OUTPUT:
+# OUTPUT:
+
 ![WhatsApp Image 2023-04-12 at 15 27 21](https://user-images.githubusercontent.com/120554177/231425037-009b061e-9ad3-4282-a5b6-537f6026044c.jpg)
 
 ![WhatsApp Image 2023-04-12 at 15 27 27](https://user-images.githubusercontent.com/120554177/231425088-f056ec50-3fc6-4005-8e2b-bb588803f26a.jpg)
@@ -84,5 +85,5 @@ OUTPUT:
 ![WhatsApp Image 2023-04-12 at 15 27 30](https://user-images.githubusercontent.com/120554177/231425152-e9114a7c-55f1-4f8b-bfe6-d67a28506352.jpg)
 
 
-Result:
+# Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
