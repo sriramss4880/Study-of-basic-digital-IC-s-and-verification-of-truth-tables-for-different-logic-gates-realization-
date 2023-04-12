@@ -63,33 +63,26 @@ Program:
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: S.S.SRIRAM
 RegisterNumber: 212222230150
-module exno1(a,b,y1,y2,y3,y4,y5,y6,y7);
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
-and (y1,a,b);
-or (y2,a,b);
-not (y3,a);
-xor (y4,a,b);
-nand (y5,a,b);
-nor (y6,a,b)
-xnor (y7,a,b);
-endmodule 
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+xor(y4,a,b);
+nand(y5,a,b);
+nor(y6,a,b);
+xnor(y7,a,b);
+endmodule
 ```
 */
-
-Logic symbol & Truthtable
-
-![1 1](https://user-images.githubusercontent.com/120554177/231415282-a55e5b54-1fda-402d-86fa-397f011cbe56.jpg)
-
-RTL realization
-
-![1 2](https://user-images.githubusercontent.com/120554177/231415396-af8230d6-144c-45cc-b7ff-f6b52f1170ab.png)
-
 OUTPUT:
+![WhatsApp Image 2023-04-12 at 15 27 21](https://user-images.githubusercontent.com/120554177/231425037-009b061e-9ad3-4282-a5b6-537f6026044c.jpg)
 
-![1 3](https://user-images.githubusercontent.com/120554177/231418004-b2fb3a4c-ab2f-4c0d-affc-eb8c5d49c0e8.png)
+![WhatsApp Image 2023-04-12 at 15 27 27](https://user-images.githubusercontent.com/120554177/231425088-f056ec50-3fc6-4005-8e2b-bb588803f26a.jpg)
 
-RTL
+![WhatsApp Image 2023-04-12 at 15 27 30](https://user-images.githubusercontent.com/120554177/231425152-e9114a7c-55f1-4f8b-bfe6-d67a28506352.jpg)
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
